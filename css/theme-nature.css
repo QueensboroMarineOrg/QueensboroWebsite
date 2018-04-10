@@ -509,9 +509,9 @@ blockquote .author {
   -webkit-column-count: 2;
 }
 @media all and (max-width: 767px) {
-  br {
+  /* br { -
     display: none;
-  }
+  } */
   blockquote {
     font-size: 16px;
     line-height: 32px;
@@ -548,7 +548,7 @@ ul.lead li {
   background: #91a05c !important;
 }
 .bg-secondary {
-  background: #f8f8f8;
+  background: #fff;
 }
 .bg-white {
   background: #fff;
@@ -571,7 +571,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 96px 0;
+  padding: 98px 0;
   position: relative;
   overflow: hidden;
 }
@@ -2814,7 +2814,7 @@ button[type="submit"] .form-loading {
 }
 /*!---------- 20. PAGE TITLES ----------*/
 .page-title {
-  padding: 0;
+  padding: 0px;
 }
 .page-title .container {
   position: relative;
@@ -5044,9 +5044,9 @@ footer.bg-dark a {
 .mr0 {
   margin-right: 0;
 }
-.mb0 {
+/* .mb0 {
   margin-bottom: 0 !important;
-}
+} */
 .mb8 {
   margin-bottom: 8px;
 }

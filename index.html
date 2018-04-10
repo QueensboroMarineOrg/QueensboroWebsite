@@ -27,6 +27,26 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600,700" rel="stylesheet" type="text/css">
         <link href="css/font-roboto.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type='text/javascript' src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script>
+   
+    
+   jQuery(document).ready(function($) {
+    $(".scrollSlow").click(function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 3500);
+    });
+});
+  
+   jQuery(document).ready(function($) {
+    $(".scrollFast").click(function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+    });
+});
+        
+    </script>
 
         <!-- Hotjar Tracking Code for qmarine.com -->
 <script>
@@ -84,9 +104,9 @@
 		                        <li>
 		                            <a href="https://reduxdigital.typeform.com/to/t8gJ40" target="_blank">BOOK NOW</a>
 		                        </li><li>
-		                            <a href="#portfolio" class="inner-link" target="_self">PORTFOLIO </a>
+		                            <a class="inner-link scrollFast" target="_self" href="#projects">PORTFOLIO </a>
 		                        </li><li>
-		                            <a href="#about" class="inner-link" target="_self">ABOUT US </a>
+		                            <a href="#about" class="inner-link scrollFast" target="_self">ABOUT US </a>
 		                        </li><li>
 		                            <a href="#testimonials" class="inner-link" target="_self">TESTIMONIALS&nbsp;</a>
 		                        </li><li>
@@ -109,52 +129,7 @@
 		            
 		        </div>
 		    </nav>
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		
-		    
-		    
-		
-		    
-		
-		    
-		    
-		
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
-		    
-		    
-		
+	
 		</div>
 		
 		<div class="main-container">
@@ -175,7 +150,7 @@
 		                <div class="col-sm-8 mb-xs-80">
 		                    <h2 class="mb16 bold">Docks &amp; marinas<br> that last a lifetime<br></h2>
 		                    <h6 class="uppercase mb32">17919 Roan Pl, SCOTCH CREEK, BC V3S 5K1</h6>
-		                    <a class="btn btn-filled btn-lg mb0 inner-link" href="#about" target="_self">LEARN MORE<br></a>
+		                    <a class="btn btn-filled btn-lg mb0 inner-link " href="#about" target="_self">LEARN MORE<br></a>
 		                </div>
 		                <div class="col-sm-4 text-center text-left-xs">
 		                     <div class="modal-container">
@@ -193,7 +168,7 @@
 
             </section>
 
- <section class="page-title page-title-3 bg-secondary">
+ <section class="page-title page-title-3 bg-secondary"> <a id="projects"></a>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
